@@ -1,6 +1,6 @@
 # make the csv for the ML model
 pooled_dir <- "analysis/output"
-OUT <- "modeling_handoff"
+OUT <- "model_data"
 dir.create(OUT, recursive = TRUE, showWarnings = FALSE)
 
 d <- read.csv(file.path(pooled_dir, "face_davidson_scores.csv"), stringsAsFactors = FALSE)
